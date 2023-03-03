@@ -502,15 +502,3 @@ h1 span:nth-child(23) {
     }
 }
 
-@media (max-width:600px) {
-    html {
-        display: none;
-    }
-
-    body {
-        display: none;
-    }
-
-
-
-}
