@@ -8,11 +8,83 @@
     --light-black: rgba(80, 80, 80, 0.201);
     --grey: rgba(80, 80, 80, 0.744);
 }
-@media (max-width: 600px) {
-    html{
-        display:none;}
-    body{
-        display:none;}
+@media (max-width:480px) {
+    html {
+        width: 600px;
+    }
+
+    body {
+
+        width: 600px;
+    }
+
+    nav {
+        width: 600px;
+    }
+
+    .corousel-img,
+    img {
+        width: 600px;
+
+    }
+
+    .underline {
+        display: none;
+    }
+
+    .artist-img,
+    .dazzling-img,
+    .cocooning-img,
+    .handmade,
+    .colorbox-img,
+    .quality-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        transform: scale(0.9);
+    }
+
+    .collection {
+        height: 370vh;
+        width: 600px;
+    }
+
+    .Our-Speciality {
+        height: 350vh;
+        width: 600px;
+    }
+
+    .Products {
+        height: 300vh;
+        width: 600px;
+    }
+
+    .arrival-img {
+        transform: scale(0.9);
+    }
+
+    .newarrival {
+        transform: scale(0.9);
+    }
+
+    .footer-classic {
+        height: 110vh;
+    }
+
+    .explore-btn {
+        transform: scale(0.9);
+        margin-top: 5rem;
+    }
+
+    h3 {
+        padding-top: 20px;
+    }
+
+    h1 {
+        transform: scale(0.8);
+    }
+
 }
     
 body {
