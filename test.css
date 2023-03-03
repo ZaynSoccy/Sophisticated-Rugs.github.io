@@ -686,11 +686,13 @@ ol {
 */
 @media (max-width:600px) {
     html {
-        display: none;
+        display: block;
+        width:600px;
     }
 
     body {
-        display: none;
+        display: block;
+        width:600px;
     }
 
 
