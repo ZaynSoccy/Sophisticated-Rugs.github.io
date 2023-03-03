@@ -8,24 +8,43 @@
     --light-black: rgba(80, 80, 80, 0.201);
     --grey: rgba(80, 80, 80, 0.744);
 }
-@media (min-width:480px) {
+@media only screen and (max-device-width: 480px) {
+    nav {
+        width: 400px;
+    }
+
     html {
-        width: 600px;
+        width: 400px;
+
     }
 
     body {
-
-        width: 600px;
-    }
-
-    nav {
-        width: 600px;
+        width: 400px;
+        padding: 0;
+        margin: 0;
     }
 
     .corousel-img,
     img {
-        width: 600px;
+        width: 480px;
 
+    }
+
+    p {
+        text-align: justify;
+        padding: 0;
+        margin: 0;
+        width: 300px;
+        padding-top: 10px;
+        margin-right: 0;
+
+    }
+
+    .col1,
+    .col2,
+    .col3 {
+        padding: 0;
+        padding-top: 100px;
     }
 
     .underline {
@@ -42,34 +61,48 @@
         margin-left: auto;
         margin-right: auto;
         padding: 0;
-        transform: scale(0.9);
+        margin-top: 150px;
+
+        width: 320px;
     }
 
     .collection {
-        height: 370vh;
-        width: 600px;
+        height: 400vh;
+        width: 320px;
     }
 
     .Our-Speciality {
-        height: 350vh;
-        width: 600px;
+        height: 400vh;
+        width: 380px;
+    }
+
+    h2 {
+        text-align: center;
     }
 
     .Products {
         height: 300vh;
-        width: 600px;
+        width: 470px;
+    }
+
+    .col-lg-4 {
+        padding: 0;
     }
 
     .arrival-img {
-        transform: scale(0.9);
+        width: 400px;
     }
 
     .newarrival {
-        transform: scale(0.9);
+        width: 470px;
     }
 
     .footer-classic {
         height: 110vh;
+    }
+
+    h5 {
+        width: 350px;
     }
 
     .explore-btn {
@@ -86,7 +119,7 @@
     }
 
 }
-    
+
 body {
     overflow-x: hidden;
 }
