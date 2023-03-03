@@ -8,7 +8,7 @@
     --light-black: rgba(80, 80, 80, 0.201);
     --grey: rgba(80, 80, 80, 0.744);
 }
-@media (max-width:480px) {
+@media (max-width:600px) {
     html {
         width: 600px;
     }
