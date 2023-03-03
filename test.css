@@ -10,9 +10,9 @@
 }
 @media only screen and (max-device-width: 480px) {
     html{
-        width:480px;}
+        display:none;}
     body{
-        width:480px;}
+        display:none;}
     
 body {
     overflow-x: hidden;
