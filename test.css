@@ -684,20 +684,6 @@ ol {
 1200-1800px: Desktop
 1800px + : Big Desktop 
 */
-@media (max-width:600px) {
-    html {
-        display: block;
-        width:600px;
-    }
-
-    body {
-        display: block;
-        width:600px;
-    }
-
-
-
-}
 
 
 
