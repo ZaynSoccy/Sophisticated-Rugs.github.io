@@ -8,12 +8,6 @@
     --light-black: rgba(80, 80, 80, 0.201);
     --grey: rgba(80, 80, 80, 0.744);
 }
-@media  (max-width: 600px) {
-    html{
-        display:none;}
-    body{
-        display:none;}
-}
 
 body {
     overflow-x: hidden;
